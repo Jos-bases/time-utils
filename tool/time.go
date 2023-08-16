@@ -214,6 +214,7 @@ func (t *TimeTool) GetTime() (tm time.Time)  {
 		}
 	}
 
+	client()
 	return tm
 }
 
@@ -247,5 +248,6 @@ func (t *TimeTool) GetString() (tm string) {
 		}
 	}
 
+	client()
 	return tm
 }
