@@ -17,7 +17,7 @@ const (
 	ASIA_DUBAI          TimeLocation = "Asia/Dubai"          // AE 亚洲/杜拜
 	ASIA_KABU           TimeLocation = "Asia/Kabu"           // AF 亚洲/喀布尔
 	ASIA_SEOU           TimeLocation = "Asia/Seou"           // KR 亚洲/首尔
-	ASIA_BANGKOK        TimeLocation = "Asia/Bangkok"        //TH 亚洲/曼谷
+	ASIA_BANGKOK        TimeLocation = "Asia/Bangkok"        // TH 亚洲/曼谷
 	AFRICA_LOME         TimeLocation = "Africa/Lome"         // TG 非洲/洛美
 	AFRICA_LUANDA       TimeLocation = "Africa/Luanda"       // AO 非洲/罗安达
 	AFRICA_LUBUMBASHI   TimeLocation = "Africa/Lubumbashi"   // CD 非洲/卢本巴希
