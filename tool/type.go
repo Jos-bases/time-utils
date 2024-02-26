@@ -13,19 +13,28 @@ import (
 type TimeLocation string
 
 const (
-	ASIA_SHANGHAI     TimeLocation = "Asia/Shanghai"
-	ASIA_DUBAI        TimeLocation = "Asia/Dubai"
-	ASIA_KABU         TimeLocation = "Asia/Kabu"
-	AFRICA_LOME       TimeLocation = "Africa/Lome"
-	AFRICA_LUANDA     TimeLocation = "Africa/Luanda"
-	AFRICA_LUBUMBASHI TimeLocation = "Africa/Lubumbashi"
-	AFRICA_LUSAKA     TimeLocation = "Africa/Lusaka"
-	AFRICA_MALABO     TimeLocation = "Africa/Malabo"
-	AFRICA_MAPUTO     TimeLocation = "Africa/Maputo"
-	AFRICA_MASERU     TimeLocation = "Africa/Maseru"
-	AMERICA_ANTIGUA   TimeLocation = "America/Antigua"
-	AMERICA_ANGUILLA  TimeLocation = "America/Anguilla"
-	EUROPE_ANDORRA    TimeLocation = "Europe/Andorra"
+	ASIA_SHANGHAI       TimeLocation = "Asia/Shanghai"       // CN 亚洲/上海
+	ASIA_DUBAI          TimeLocation = "Asia/Dubai"          // AE 亚洲/杜拜
+	ASIA_KABU           TimeLocation = "Asia/Kabu"           // AF 亚洲/喀布尔
+	ASIA_SEOU           TimeLocation = "Asia/Seou"           // KR 亚洲/首尔
+	ASIA_BANGKOK        TimeLocation = "Asia/Bangkok"        //TH 亚洲/曼谷
+	AFRICA_LOME         TimeLocation = "Africa/Lome"         // TG 非洲/洛美
+	AFRICA_LUANDA       TimeLocation = "Africa/Luanda"       // AO 非洲/罗安达
+	AFRICA_LUBUMBASHI   TimeLocation = "Africa/Lubumbashi"   // CD 非洲/卢本巴希
+	AFRICA_LUSAKA       TimeLocation = "Africa/Lusaka"       // ZM 非洲/卢萨卡
+	AFRICA_MALABO       TimeLocation = "Africa/Malabo"       // GQ 非洲/马拉博
+	AFRICA_MAPUTO       TimeLocation = "Africa/Maputo"       // MZ 非洲/莫桑比克马普托
+	AFRICA_MASERU       TimeLocation = "Africa/Maseru"       // LS 非洲/马塞卢
+	AMERICA_ANTIGUA     TimeLocation = "America/Antigua"     // AG 美洲/安地卡及巴布达
+	AMERICA_ANGUILLA    TimeLocation = "America/Anguilla"    // AI 美洲/安圭拉岛
+	AMERICA_ADAK        TimeLocation = "America/Adak"        // US 美国/埃达克
+	AMERICA_CHICAGO     TimeLocation = "America/Chicago"     // US 美国/芝加哥
+	AMERICA_NEWYORK     TimeLocation = "America/New_York"    // US US 美国/纽约
+	EUROPE_ANDORRA      TimeLocation = "Europe/Andorra"      // AD 欧洲/安道尔
+	AUSTRALIA_MELBOURNE TimeLocation = "Australia/Melbourne" // AU 澳大利亚/墨尔本
+	AUSTRALIA_SYDNEY    TimeLocation = "Australia/Sydney"    // AU 澳大利亚/悉尼
+	INDIAN_MAYOTTE      TimeLocation = "Indian/Mayotte"      // MY 印度/马约特岛
+	INDIAN_COMORO       TimeLocation = "Indian/Comoro"       // KM 印度/科莫罗
 )
 
 type TimeFormat string
